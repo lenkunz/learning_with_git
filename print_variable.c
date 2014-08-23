@@ -2,10 +2,9 @@
 
 int main() {
 	// type your code here
-	float myFiratVar = 23.61;
+	float myFirstVar = 23.61;
 	
-	printf("The value of my first variable is:%2f\n", myFiratVar);
+	printf("The value of my first variable is: %.2f\n", myFirstVar);
 
 	return 0;
-
 }
