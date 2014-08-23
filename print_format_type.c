@@ -3,13 +3,20 @@
 
 int main() {
 	// type your code here
-	printf("%d\n", 1668);
-	printf("%.2f\n", 1668.258);
-	printf("%.3f\n", 1668.258);
-	printf("%s\n", "1668.258");
-	printf("%+d\n", 422);
-	printf("%04d\n", 422);
-	printf("%.2f\n", M_PI);	// §Ë“§ß∑’Ë M_PI = 3.141593...
+	printf("%e\n", 1668);
+	
+	printf("%d\n", 1668.258);
+
+	printf("%c\n", 1668.258);
+
+	printf("%.3f\n", "1668.258");
+
+	printf("%d\n", 422);
+
+	printf("%d\n", 422);
+
+	printf("%d\n", M_PI);	// ‡∏Ñ‡πà‡∏≤‡∏Ñ‡∏á‡∏ó‡∏µ‡πà M_PI = 3.141593...
+
 	printf("%s\n", "I\'m eager to go to the next page");
 	
 
