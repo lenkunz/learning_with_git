@@ -4,13 +4,12 @@
 
 #define SIZE 5
 
-int* initArr(int* nameArray){
-	int* newArray = (int*)malloc(sizeof(int)*SIZE);
-	for(int i=0; i<= SIZE-1; i++){
-		*(newArray+i) = i;
+void initArr(int* nameArray){
+	nameArray = (int*)malloc(sizeof(int)*SIZE);
+	for(int i=0; i < SIZE; i++){
+		*(nameArray+i) = i;
 	}
-	printf("%d ", newArray[1]);
-	return newArray;
+	printf("%d ", nameArray[1]);
 }
 
 void printArray(int* inArray){
@@ -24,10 +23,6 @@ int main(int argc, char** argv){
 	int a[SIZE] ;
 	initArr(a);
 	printf("%d ", a[0]);
-	
-	
-	
 	getch();
 	return 0;
-
 }
